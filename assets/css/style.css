@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-modal{
+    margin: 200px auto ;
+    width: 60%;
+    background-color: bisque;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px -10px 5px lightgray ;
+    border-radius: 15px;
+}
+/* .subjects{
+    display: none;
+} */
+.subjects button{
+    padding: 20px 60px;
+    margin-right: 8px;
+    border-style: none;
+    font-size: larger;
+    font-style: italic;
+    color: darkslategray;
+}
+.level-selection {
+    display: none;
+}
+.level-selection button{
+    padding: 20px 60px;
+    margin-right: 8px;
+    border-style: none;
+    font-size: larger;
+    font-style: italic;
+    color: darkslategray;
+}
+.question{
+    display: none;
+}
+.question-heading{
+    padding: 14px 40px;
+    text-align: center;
+    background-color: darkgray;
+    box-shadow: -10px -10px 5px lightgray ;
+
+}
+.question-heading p{
+    font-style: italic;
+    font-size: 20px;
+}
+.question-variants{
+    margin-top: 40px;
+}
+.first-line{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.second-line{
+    display: flex;
+    gap: 30px;
+
+}
+.question-variants button{
+    border-color: antiquewhite ;
+    border-width: 1px;
+    background-color: beige;
+    width: 300px;
+    height: 60px;
+}
+.question-ending{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.question-ending i{
+    font-size: 30px;
+    color: antiquewhite;
+    border-color: darkslategray;
+    box-shadow: -5px -5px 5px lightgray ;
+    background-color: darkslategray;
+
+    border-radius: 50% ;
+    padding:15px;
+}
+.question-list ul{
+    display: flex;
+    gap: 10px;
+
+}
+.question-list ul li{
+    color: antiquewhite;
+
+    list-style: none;
+    padding: 5px 10px;
+    border-color: darkslategray;
+    box-shadow: -5px -5px 5px lightgray ;
+    background-color: darkslategray;
+    border-radius: 50% ;
+}
+.active{
+    background-color: darkgreen!important ;
+}
