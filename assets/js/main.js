@@ -6,7 +6,7 @@ var questions = document.querySelector(".question");
 var levelButton = document.querySelectorAll(".level-selection button");
 var questionBank = [
     {
-      question: "5 %-i 2 olan ədədi tap?",
+      question: "Find the number whose 5% is 2.",
       A: "A)43",
       B: "B)40",
       C: "C)49",
@@ -16,7 +16,7 @@ var questionBank = [
       level: "Easy",
     },
     {
-      question: "(x+3)+(x+1)=12 Tənliyi həll edin?",
+      question: "Calculate the equotion (x+3)+(x+1)=12.",
       A: "A)3",
       B: "B)5",
       C: "C)4",
@@ -26,7 +26,7 @@ var questionBank = [
       level: "Easy",
     },
     {
-      question: "Sürəti 7 olan neçə düzgün olmayan kəsr var?",
+      question: "How many improper fractions have a numerator of 7?",
       A: "A)7",
       B: "B)32",
       C: "C)4",
@@ -36,7 +36,7 @@ var questionBank = [
       level: "Easy",
     },
     {
-      question: "4%-i 5,6 olan ədədi tapın:",
+      question: "Find the number whose 4% is 5.6.",
       A: "A)48",
       B: "B)400",
       C: "C)49",
@@ -46,7 +46,7 @@ var questionBank = [
       level: "Easy",
     },
     {
-      question: "0,1(3) sonsuz dövrü onluq kəsrini adi kəsrə çevirin.",
+      question: "Convert the infinite period fraction 0.1(3) to a regular fraction.",
       A: "A)2/15",
       B: "B)26/15",
       C: "C)12/15",
@@ -57,7 +57,7 @@ var questionBank = [
     },
     {
       question:
-        "İki ədədin cəmi 5, fərqi 3-dür.Bu ədədlərin hasilini tapın?",
+        "Sum of two integers is 5, diffrence is 3. Find these numbers product.",
       A: "A)4",
       B: "B)7",
       C: "C)9",
@@ -67,7 +67,7 @@ var questionBank = [
       level: "Medium",
     },
     {
-      question: "X≠0 olarsa, 2x(x+y)=5y,x(x-y)=y olduqda x-i tapın?",
+      question: "If X≠0 and 2x(x+y)=5y, find x from x(x-y)=y.",
       A: "A)3/4",
       B: "B)5",
       C: "C)4/9",
@@ -78,7 +78,7 @@ var questionBank = [
     },
     {
       question:
-        "x+y=5,x-y=1 olduğuna görə, x2-y2+3x+3y ifadəsinin qiymətini tapın?",
+        "If x+y=5,x-y=1 , calculate the value of x2-y2+3x+3y. ",
       A: "A)10",
       B: "B)20",
       C: "C)30",
@@ -88,7 +88,7 @@ var questionBank = [
       level: "Medium",
     },
     {
-      question: "2x+y=5,x-3y=-5 tənliklər sistemindən x+y cəmini tapın?",
+      question: "Find xy from this system of equotions 2x+y=5,x-3y=-5.",
       A: "A)4",
       B: "B)7",
       C: "C)3",
@@ -98,7 +98,7 @@ var questionBank = [
       level: "Medium",
     },
     {
-      question: "x+3=2(y-4),y-2=4x tənliklər sistemindən x-i tapın:",
+      question: "Find x from this system of equotions x+3=2(y-4),y-2=4x:",
       A: "A)1/15",
       B: "B)2/15",
       C: "C)3/15",
@@ -108,7 +108,7 @@ var questionBank = [
       level: "Medium",
     },
     {
-      question: "Hesablayın: (9-2√10)(9+2√10)?",
+      question: "Calculate: (9-2√10)(9+2√10).",
       A: "A)36",
       B: "B)12",
       C: "C)12√10",
@@ -118,7 +118,7 @@ var questionBank = [
       level: "Hard",
     },
     {
-      question: "Hesablayın: (3√5+√15)2-10√27?",
+      question: "Calculate: (3√5+√15)2-10√27.",
       A: "A)80",
       B: "B)70",
       C: "C)60",
@@ -138,7 +138,7 @@ var questionBank = [
       level: "Hard",
     },
     {
-      question: "A=√6+1 və b=√6 -1 olduğuna görə, a:b+b:a=?",
+      question: "If A=√6+1 and b=√6 -1, a:b+b:a=?",
       A: "A)2,8",
       B: "B)3,8",
       C: "C)3",
@@ -148,7 +148,7 @@ var questionBank = [
       level: "Hard",
     },
     {
-      question: "(x-3)2+(y+7)2=0 isə, xy=?",
+      question: "If (x-3)2+(y+7)2=0 , xy=?",
       A: "A)23",
       B: "B)-32",
       C: "C)21",
@@ -158,152 +158,152 @@ var questionBank = [
       level: "Hard",
     },
     {
-      question: "Azərbaycan dilində neçə sait var?",
-      A: "A)8",
-      B: "B)9",
-      C: "C)7",
-      D: "D)11",
-      correctvariant: "B)9",
+      question: "Which one is noun?",
+      A: "A)apple",
+      B: "B)blue",
+      C: "C)eat",
+      D: "D)already",
+      correctvariant: "A)apple",
       subject: "English",
       level: "Easy",
     },
     {
-      question: "Azərbaycan dilində neçə samit səs var?",
-      A: "A)34",
-      B: "B)23",
-      C: "C)25",
+      question: "Which verb is in Past Simple?",
+      A: "A)go",
+      B: "B)drink",
+      C: "C)see",
+      D: "D)liked",
+      correctvariant: "D)liked",
+      subject: "English",
+      level: "Easy",
+    },
+    {
+      question: "How many letters are there in English Alphabet?",
+      A: "A)25",
+      B: "B)26",
+      C: "C)30",
       D: "D)32",
-      correctvariant: "C)25",
+      correctvariant: "B)26",
       subject: "English",
       level: "Easy",
     },
     {
-      question: "Hansı kar samitin cingiltili qarşılığı yoxdur?",
-      A: "A)H",
-      B: "B)F",
-      C: "C)G",
-      D: "D)C",
-      correctvariant: "A)H",
+      question: "How do you get to work?",
+      A: "A)By car",
+      B: "B)In car",
+      C: "C)By the car",
+      D: "D)On car",
+      correctvariant: "A)By car",
+      subject: "English",
+      level: "Easy",
+    },
+    {  
+      question: "Complete the sentence: He passed his English exam very ----.",
+      A: "A)easy",
+      B: "B)easier",
+      C: "C)good",
+      D: "D)easily",
+      correctvariant: "D)easily",
       subject: "English",
       level: "Easy",
     },
     {
-      question: "Əlifbada neçə hərf var?",
-      A: "A)30",
-      B: "B)23",
-      C: "C)32",
-      D: "D)34",
-      correctvariant: "C)32",
-      subject: "English",
-      level: "Easy",
-    },
-    {
-      question: "Bitişdirici samitləri göstərin:",
-      A: "A)d,t,l",
-      B: "B)n,m,s",
-      C: "C)m,l,k",
-      D: "D)n,y,s",
-      correctvariant: "D)n,y,s",
-      subject: "English",
-      level: "Easy",
-    },
-    {
-      question: "Qrammatik cəhətdən feil bildirir?",
-      A: "A)Hərəkət",
-      B: "B)Xususiyyət",
-      C: "C)Keyfiyyət",
-      D: "D)Əlamət",
-      correctvariant: "A)Hərəkət",
+      question: "Complete the sentence: It is not ____ mine.",
+      A: "A)same as",
+      B: "B)same like",
+      C: "C)the same as",
+      D: "D)the same like",
+      correctvariant: "C)the same as",
       subject: "English",
       level: "Medium",
     },
     {
-      question: "Feilin neçə sadə şəkli var?",
-      A: "A)4",
-      B: "B)5",
-      C: "C)6",
-      D: "D)8",
-      correctvariant: "C)6",
+      question: "Complete the sentence: We saw them ... the bus stop.",
+      A: "A)on",
+      B: "B)at",
+      C: "C)in",
+      D: "D)down",
+      correctvariant: "B)at",
       subject: "English",
       level: "Medium",
     },
     {
-      question: "Feil haqqında hansı fikir səhvdir?",
-      A: "A)feilin dərəcələri var",
-      B: "B)feil hərəkət bildirir",
-      C: "C)feil təsirli və təsirsiz olur",
-      D: "D)feilin 3 zamanı var",
-      correctvariant: "A)feilin dərəcələri var",
+      question: "Complete the sentence: I think Jill will get the job. I'll be very surprised ... she doesn't get it.",
+      A: "A)when",
+      B: "B)while",
+      C: "C)if",
+      D: "D)till",
+      correctvariant: "C)if",
       subject: "English",
       level: "Medium",
     },
     {
-      question: "Feilin quruluşca neçə novu var?",
-      A: "A)5",
-      B: "B)6",
-      C: "C)4",
-      D: "D)3",
-      correctvariant: "D)3",
+      question: "Complete the sentence: I don't eat much during the day. I never ... lunch.",
+      A: "A)have got",
+      B: "B)have",
+      C: "C)had",
+      D: "D)both",
+      correctvariant: "B)have",
       subject: "English",
       level: "Medium",
     },
     {
-      question: "Feil cümlədə əsasən hansı cümlə üzvü olur?",
-      A: "A)təyin",
-      B: "B)mübtəda",
-      C: "C)xəbər",
-      D: "D)zərflik",
-      correctvariant: "C)xəbər",
+      question: "Complete the sentence: That's OK. No ... .",
+      A: "A)problem",
+      B: "B)definition",
+      C: "C)complain",
+      D: "D)deal",
+      correctvariant: "A)problem",
       subject: "English",
       level: "Medium",
     },
     {
-      question: "Hansı əlaqə növü bütün tabeli mürəkkəb cümlələrdə olur?",
-      A: "A)Qarşılaşdırma",
-      B: "B)Zaman",
-      C: "C)Səbəb-nəticə",
-      D: "D)Heç biri",
-      correctvariant: "B)Zaman",
+      question: "Complete the sentence: The exams __. It’s time we ___ down to work.",
+      A: "A)will come, are getting",
+      B: "B)are coming, got",
+      C: "C)have come, are",
+      D: "D)s coming, will get",
+      correctvariant: "B)are coming, got",
       subject: "English",
       level: "Hard",
     },
     {
-      question: "Mürəkkəb cümlənin hansı növləri var?",
-      A: "A)tabeli, tabesiz",
-      B: "B)düzəltmə",
-      C: "C)əmr",
-      D: "D)sadə",
-      correctvariant: "A)tabeli, tabesiz",
+      question: "Complete the sentence: What do you do, Ali ?Ali : I am a _______.",
+      A: "A)math lesson",
+      B: "B)5th grade",
+      C: "C)student",
+      D: "D)french",
+      correctvariant: "C)student",
       subject: "English",
       level: "Hard",
     },
     {
-      question: "Mürəkkəb cümlənin neçə novu var?",
-      A: "A)6",
-      B: "B)2",
-      C: "C)5",
-      D: "D)3",
-      correctvariant: "D)3",
+      question: "Complete the sentence: A kangaroo ____ jump but it _____ speak.",
+      A: "A)can / can’t",
+      B: "B)can’t / can’t",
+      C: "C)can / can",
+      D: "D)can’t / can",
+      correctvariant: "A)can / can’t",
       subject: "English",
       level: "Hard",
     },
     {
-      question: "Hansı bağlayıcı merəkkəb cümlənin tərəflərini bağlamır?",
-      A: "A)ancaq",
-      B: "B)ilə",
-      C: "C)belə ki",
-      D: "D)yəni",
-      correctvariant: "B)ilə",
+      question: "Complete the sentence: __________ languages do you speak.B : Two languages.",
+      A: "A)How",
+      B: "B)Who",
+      C: "C)How many",
+      D: "D)Where",
+      correctvariant: "C)How many",
       subject: "English",
       level: "Hard",
     },
     {
-      question: "Mürəkkəb cümlələr neçə növə ayrılır?",
-      A: "A)2",
-      B: "B)4",
-      C: "C)5",
-      D: "D)3",
-      correctvariant: "A)2",
+      question: "Complete the sentence: I am from ______.I speak _____ and English",
+      A: "A)Spanish – Spain",
+      B: "B)Spain – Spanish",
+      C: "C)Spanish -England",
+      D: "D)English – Spanish",
+      correctvariant: "B)Spain – Spanish",
       subject: "English",
       level: "Hard",
     },
@@ -349,61 +349,109 @@ levelButton.forEach(element => {
   }
 
   var index = 0 ;
+  var correct = 0;
+  var incorrect = 0;
   function questionFilling(){
     questionHeading.innerHTML = `<p>${filterLevel[index].question}</p>`;
     questionVariants.innerHTML = `<div class="first-line">
-            <button>${filterLevel[index].A}</button>
-            <button>${filterLevel[index].B}</button>
+            <button onclick= "answer(this)">${filterLevel[index].A}</button>
+            <button onclick= "answer(this)">${filterLevel[index].B}</button>
         </div>
         <div class="second-line">
-            <button>${filterLevel[index].C}</button>
-            <button>${filterLevel[index].D}</button>
+            <button onclick= "answer(this)">${filterLevel[index].C}</button>
+            <button onclick= "answer(this)">${filterLevel[index].D}</button>
         </div>`
 
-        var answerButtons = questionVariants.querySelectorAll("button");
-        answerButtons.forEach(element => { element.addEventListener("click", function(){
-            if(element.innerText == filterLevel[index].correctvariant){
-                element.style.backgroundColor = "darkgreen";
-            }
-            else{
-                
-                element.style.backgroundColor = "darkred";
-                
-            }
-        })
-        });
+        // answerButtons.forEach(element => { element.addEventListener("click", function(){
+        //     if(element.innerText == filterLevel[index].correctvariant){
+        //         element.style.backgroundColor = "darkgreen";
+        //         correct++;
+        //     }
+        //     else{
+        //         element.style.backgroundColor = "darkred";
+        //         incorrect++;
+        //         answerButtons.forEach(item => { 
+        //           if(item.innerText == filterLevel[index].correctvariant){
+        //               item.style.backgroundColor = "darkgreen";
+        //           }
+        //         });
+        //     }
+        //     answerButtons.forEach(a => {
+        //       a.style.pointerEvents = "none";
+        //     });
+        // })
+        // });
   }
+  var answerButtons;
+      function answer(btn){
+       answerButtons = questionVariants.querySelectorAll("button");
+       console.log(answerButtons);
+        if(btn.innerText == filterLevel[index].correctvariant){
+                 btn.style.backgroundColor = "darkgreen";
+                  correct++;
+              }
+              else{
+                btn.style.backgroundColor = "darkred";
+                  incorrect++;
+                  answerButtons.forEach(item => { 
+                    if(item.innerText == filterLevel[index].correctvariant){
+                        item.style.backgroundColor = "darkgreen";
+                    }
+                    console.log(item.innerText);
+                  });
+              }
+              answerButtons.forEach(a => {
+                a.style.pointerEvents = "none";
+              });
+      }
  
-  var iconForward = document.querySelectorAll(".question-ending i")[1];
-  iconForward.addEventListener("click", function(){
-  if(index < filterLevel.length - 1){
-    index++;
-    Array.from(questionList.children).forEach(item => {
-        item.classList.remove("active")
-    });
-    questionList.children[index].classList.add("active");
-    questionFilling();
- }
- })
- var iconBack = document.querySelectorAll(".question-ending i")[0];
-  iconBack.addEventListener("click", function(){
-  if(index > 0){
-    index--;
-    Array.from(questionList.children).forEach(item => {
-        item.classList.remove("active")
-    });
-    questionList.children[index].classList.add("active");
-    questionFilling();
- }
- })
- function page(x){
-    index = x;
-    Array.from(questionList.children).forEach(item => {
-        item.classList.remove("active")
-    });
-    questionList.children[x].classList.add("active");
-    questionFilling();
+      var iconForward = document.querySelectorAll(".question-ending i")[1];
+      iconForward.addEventListener("click", function(){
+      if(index < filterLevel.length - 1){
+        index++;
+        Array.from(questionList.children).forEach(item => {
+            item.classList.remove("active")
+        });
+        questionList.children[index].classList.add("active");
+        questionFilling();
+        answerButtons.forEach(a => {
+        a.style.pointerEvents = "all";
+      });
+      }
+      else if(index == filterLevel.length-1){
+        result();
+      }
+    })
+      var iconBack = document.querySelectorAll(".question-ending i")[0];
+        iconBack.addEventListener("click", function(){
+        if(index > 0){
+          index--;
+          Array.from(questionList.children).forEach(item => {
+              item.classList.remove("active");
+          });
+          questionList.children[index].classList.add("active");
+          questionFilling();
+      }
+      })
 
-    
- }
+      function page(x){
+          index = x;
+          Array.from(questionList.children).forEach(item => {
+              item.classList.remove("active");
+          });
+          questionList.children[x].classList.add("active");
+          questionFilling();
+      }
+
+      function result() {
+        questionHeading.innerHTML = `<p>Result:</p>`;
+        document.querySelector(".result").innerHTML = `<p>Correct questions: <strong>${correct}</strong></p>
+        <p>Incorrect questions: <strong>${incorrect}</strong></p>
+        <p>Unanswered questions: <strong>${filterLevel.length - (correct + incorrect)}</strong></p>
+        <p>Number of all questions: <strong>${filterLevel.length}</strong></p>
+        <p>Percentage of success: <strong>${((correct / filterLevel.length)*100).toFixed(2)}</strong> %</p>`
+        questionVariants.style.display = "none";
+        document.querySelector(".question-ending").style.display = "none";        
+
+      }
  

@@ -103,3 +103,9 @@
 .active{
     background-color: darkgreen!important ;
 }
+.question-variants p{
+    font-style: italic;
+    font-size: larger;
+    color: darkslategray;
+    margin-bottom: 10px;
+}
